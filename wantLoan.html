@@ -1,13 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Peer to Peer Loan System</title>
+	<title>Loans | Form</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -62,7 +64,7 @@
 								<li class="current-list-item"><a href="index.html">Home</a>
 									
 								</li>
-								<li><a href="about.html">About</a></li>
+								<li><a class="text-danger" href="about.html">About</a></li>
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
@@ -101,80 +103,24 @@
 	<!-- end search area -->
 
 	<!-- hero area -->
-	<div class="hero-area hero-bg">
+	<div class=" mt-150 mb-100 ml-4 mr-4 p-4 hero-bg">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-9 offset-lg-2 text-center">
-					<div class="hero-text">
-						<div class="hero-text-tablecell">
-							<h1>Welcome to Peer to Peer Loan System</h1>
-							<p class="subtitle"></p>
-							<div class="hero-btns">
-								<a href="giveLoan.html" class="boxed-btn">Give Loan</a>
-								<a href="wantLoan.html" class="bordered-btn">Want Loan</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+            <div class="comment-template ">
+				<p>If you want to ask for loans give your informations!!</p>
+				<form action="loandash.html">
+						<p>
+							<input type="text" placeholder="Your Name">
+							<input type="email" placeholder="Your Email">
+                            <input class=" mt-3 w-50" type="number"  placeholder="ID">
+                            <input class="w-50" type="number" placeholder="Loan Amount">
+						</p>
+						<p><textarea name="comment" id="comment" cols="30" rows="5" placeholder="Enter Details"></textarea></p>
+					<p><input type="submit" value="Submit"></p>
+				</form>
+			</div>	
 		</div>
 	</div>
 	<!-- end hero area -->
-
-	<!-- features list section -->
-	<div class="list-section pt-80 pb-80 mt-150 m-5">
-		<div class="container">
-
-			<div class="row">
-				<div class="col-lg-8 col-md-6 mb-4 mb-lg-0">
-					<div class="list-box d-flex align-items-center">
-						<div class="list-icon">
-							<i class="fas fa-shipping-fast"></i>
-						</div>
-						<div class="content">
-							<h3>Easy Give and Take loans</h3>
-							<p>From your very own peers</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-					<div class="list-box d-flex align-items-center">
-						<div class="list-icon">
-							<i class="fas fa-phone-volume"></i>
-						</div>
-						<div class="content">
-							<h3>Get Easy crowdfunding</h3>
-							<p>From your very own peers</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-	<!-- end features list section -->
-	<!-- advertisement section -->
-	<div class="abt-section mb-150 mt-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<div class="abt-bg">
-						<a href="" class="video-play-btn popup-youtube"><i class="fas fa-play"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="abt-text">
-						<p class="top-sub">Since Year 2023</p>
-						<h2>We are <span class="orange-text">L & C</span></h2>
-						<p>Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat veritatis minus, et labore minima mollitia qui ducimus.</p>
-						<a href="about.html" class="boxed-btn mt-4">know more</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end advertisement section -->
 
 	<!-- footer -->
 	<div class="footer-area">
