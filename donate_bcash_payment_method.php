@@ -18,7 +18,7 @@ $method = $_GET['method'];
 
 <body>
   <div class="first-bg">
-    <div class="container">
+    <div class="">
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
