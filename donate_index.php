@@ -63,7 +63,67 @@ require_once('db-config.php');
                 </div>
             </div>
           </div>
+
+
+         
+   
           <?php }?>
+          <div class="container" id="about">
+    <div class="d-flex justify-content-center categories">
+        <h3 class="online-courses" >Testimonial</h3>
+    </div>
+   </div>
+   <div class="container">
+    <div class="row">
+      <div class="thirty-width col-md-6">
+        <img src="images/Photos/Man.png" alt="">
+      </div>
+      <div class="seventy-width col-md-6">
+        <p>There are many variations of passages of Lorem Ipsum available, but the
+         majority have suffered alteration in some form, by injected humour, 
+        or randomised words which don't look even slightly believable.</p>
+      </div>
+    </div>
+   </div>
+
+     <div class="last-part">
+       <div class="row">
+         <div class="col-md-3">
+           <p>Millions of people of all ages and from around
+            the world are improving their lives with us</p>
+         </div>
+         <div class="col-md-3">
+           <h3>Course</h3>
+           <p class="last-para">Course
+            Graphic Design
+            Web Design
+            Business
+            Marketing
+            Engineering</p>
+         </div>
+         <div class="col-md-3">
+           <h3>Terms</h3>
+           <p class="last-para">Terms
+            Graphic Design
+            Web Design
+            Business
+            Marketing
+            Engineering</p>
+         </div>
+         <div class="col-md-3">
+           <h3>Useful Links</h3>
+           <p class="last-para">Useful Link
+            Graphic Design
+            Web Design
+            Business
+            Marketing
+            Engineering</p>
+         </div>
+       </div>
+       <footer>
+        <p>@ Joy 2021 | all right reserved.</p>
+       </footer>
+   </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
