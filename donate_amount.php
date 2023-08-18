@@ -1,6 +1,6 @@
 <?php
 $donationId = $_GET['donation-id'];
-$method = $_GET['method'];
+
 ?>
 
 <!DOCTYPE html>
