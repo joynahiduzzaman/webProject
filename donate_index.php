@@ -51,7 +51,7 @@ require_once('db-config.php');
             <div class="card-body">
               <h5 class="card-title"> <?php echo $q['title']; ?></h5>
               <p> <?php echo $q['description']; ?> </p>
-              <a class="button" target="" href="donate_payment_method_choose.php?donation-id=<?php echo $q['post_id']; ?>">Donate</a>
+              <a class="button" target="" href="donate_amount.php?donation-id=<?php echo $q['post_id']; ?>">Donate</a>
               <div class="d-flex last-card-line">
                 <div class="p-2 flex-grow-1 ">
                   <img class="img-cal" src="images/ICON/calendar.png" alt="">

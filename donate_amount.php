@@ -42,7 +42,7 @@ $method = $_GET['method'];
 
     <div class="container" id="courses">
       <div class="d-flex justify-content-center categories">
-        <h3 class="online-courses">Payment On BKash</h3>
+        <h3 class="online-courses">enter amount here</h3>
         <input type="hidden" name="method" value="bkash">
       </div>
     </div>
@@ -51,18 +51,9 @@ $method = $_GET['method'];
       <form action="process.php" method="post">
         <div class="half-width form-tab">
           <input type="hidden" name="d-id" value="<?php echo $donationId;?>">
-          <input type="hidden" name="method" value="<?php echo $method;?>">
-          <div class="form-floating">
-            <input type="Number" class="form-control Number" id="floatingNumber" name="number" placeholder="Number">
-            <label for="floatingPassword">Bkash Number</label>
-          </div>
-          <div class="form-floating">
-            <input type="password" class="form-control Pin" id="floatingPin" placeholder="Pin">
-            <label for="floatingPin">Pin Number</label>
-          </div>
           <div class="form-floating">
             <input type="number" class="form-control Amount" id="floatingAmount" placeholder="Amount" name="amount">
-            <label for="floatingAmount">Amount Money</label>
+            <label for="floatingAmount">Enter amount</label>
           </div>
 
 

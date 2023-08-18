@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,35 +41,13 @@
 
 
 
-    <div class="container" id="courses">
-      <div class="d-flex justify-content-center categories">
-        <h3 class="online-courses">Payment On Cash</h3>
-      </div>
-    </div>
+
 
     <div class="container">
-      <div class="half-width form-tab">
-        <div class="form-floating mb-3">
-          <input type="Location" class="form-control" id="floatingInput" placeholder="Location">
-          <label for="floatingInput">Location </label>
-        </div>
-        <div class="form-floating">
-          <input type="date" class="form-control" id="floatingDate" placeholder="Date">
-          <label for="floatingDate">Date</label>
-        </div>
-        <div class="form-floating">
-          <input type="time" class="form-control" id="floatingTime" placeholder="Time">
-          <label for="floatingTime">Time</label>
-        </div>
-        <div class="form-floating">
-          <input type="Number" class="form-control Number" id="floatingNumber" placeholder="Number">
-          <label for="floatingPassword">Phone Number</label>
-        </div>
-        <div>
-
-          <button class="button-form">Register</button>
-        </div>
+      <div class="d-flex justify-content-center categories">
+        <h3 class="online-courses">Payment Cancelled</h3>
       </div>
+
     </div>
 
 
