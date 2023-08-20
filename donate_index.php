@@ -38,94 +38,37 @@ require_once('db-config.php');
       </nav>
     </div>
 
-
     <div class="container">
-      <div class="card-group">
-      <?php
-      $ques = mysqli_query($db, "SELECT * FROM `donation_posts`") or die(mysqli_error($db));
-      while ($q = mysqli_fetch_assoc($ques)) {
-      ?>
-      
-        <div class="card shadow-sm h-100">
-            <img src="<?php echo $q['image']; ?>" class="card-img-top" >
-            <div class="card-body">
-              <h5 class="card-title"> <?php echo $q['title']; ?></h5>
-              <p> <?php echo $q['description']; ?> </p>
-              <a class="button" target="" href="donate_amount.php?donation-id=<?php echo $q['post_id']; ?>">Donate</a>
-              <div class="d-flex last-card-line">
-                <div class="p-2 flex-grow-1 ">
-                  <img class="img-cal" src="images/ICON/calendar.png" alt="">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <?php
+        $ques = mysqli_query($db, "SELECT * FROM `donation_posts`") or die(mysqli_error($db));
+        while ($q = mysqli_fetch_assoc($ques)) {
+        ?>
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <img src="<?php echo $q['image']; ?>" class="card-img-top" alt="Post Image">
+              <div class="card-body">
+                <h5 class="card-title"><?php echo $q['title']; ?></h5>
+                <p><?php echo $q['description']; ?></p>
+                <a class="btn btn-primary" target="" href="donate_amount.php?donation-id=<?php echo $q['post_id']; ?>">Donate</a>
+                <div class="d-flex last-card-line">
+                  <div class="p-2 flex-grow-1">
+                    <img class="img-cal" src="images/ICON/calendar.png" alt="Calendar Icon">
+                  </div>
+                  <div class="p-2 flex-grow-1">
+                    <h3 class="date-cal">Deadline <?php echo $q['end_date']; ?></h3>
+                  </div>
                 </div>
-                <div class="p-2 flex-grow-1">
-                  <h3 class="date-cal">Deadline <?php echo $q['end_date']; ?></h3>
-                </div>
-
-                </div>
+              </div>
             </div>
           </div>
-
-
-         
-   
-          <?php }?>
-          <div class="container" id="about">
-    <div class="d-flex justify-content-center categories">
-        <h3 class="online-courses" >Testimonial</h3>
-    </div>
-   </div>
-   <div class="container">
-    <div class="row">
-      <div class="thirty-width col-md-6">
-        <img src="images/Photos/Man.png" alt="">
+        <?php
+        }
+        ?>
       </div>
-      <div class="seventy-width col-md-6">
-        <p>There are many variations of passages of Lorem Ipsum available, but the
-         majority have suffered alteration in some form, by injected humour, 
-        or randomised words which don't look even slightly believable.</p>
-      </div>
-    </div>
-   </div>
 
-     <div class="last-part">
-       <div class="row">
-         <div class="col-md-3">
-           <p>Millions of people of all ages and from around
-            the world are improving their lives with us</p>
-         </div>
-         <div class="col-md-3">
-           <h3>Course</h3>
-           <p class="last-para">Course
-            Graphic Design
-            Web Design
-            Business
-            Marketing
-            Engineering</p>
-         </div>
-         <div class="col-md-3">
-           <h3>Terms</h3>
-           <p class="last-para">Terms
-            Graphic Design
-            Web Design
-            Business
-            Marketing
-            Engineering</p>
-         </div>
-         <div class="col-md-3">
-           <h3>Useful Links</h3>
-           <p class="last-para">Useful Link
-            Graphic Design
-            Web Design
-            Business
-            Marketing
-            Engineering</p>
-         </div>
-       </div>
-       <footer>
-        <p>@ Joy 2021 | all right reserved.</p>
-       </footer>
-   </div>
+      
     </div>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

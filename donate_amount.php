@@ -40,14 +40,14 @@ $donationId = $_GET['donation-id'];
 
 
 
-    <div class="container" id="courses">
-      <div class="d-flex justify-content-center categories">
+   
+      
+ 
+    
+    <div class="d-flex justify-content-center categories">
         <h3 class="online-courses">enter amount here</h3>
         <input type="hidden" name="method" value="bkash">
       </div>
-    </div>
-
-    <div class="container">
       <form action="process.php" method="post">
         <div class="half-width form-tab">
           <input type="hidden" name="d-id" value="<?php echo $donationId;?>">
@@ -63,7 +63,7 @@ $donationId = $_GET['donation-id'];
           </div>
         </div>
       </form>
-    </div>
+  
 
 
 
