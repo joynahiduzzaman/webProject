@@ -12,7 +12,7 @@ require_once('db-config.php');
   <title>Donation Website</title>
   <link rel="shortcut icon" href="images/ICON/Logo.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="donate_style1.css">
+  <link rel="stylesheet" href="donate_style.css">
 </head>
 
 <body>
@@ -31,7 +31,7 @@ require_once('db-config.php');
               <a class="nav-link color-me" href="donate_index.php">Home</a>
               <a class="nav-link color-me" href="#about">About</a>
               <a href="donate_post.php" class="button">Post</a>
-              <a href="" class="button">Login</a>
+              
             </div>
           </div>
         </div>
@@ -65,7 +65,56 @@ require_once('db-config.php');
         <?php
         }
         ?>
+
+        
       </div>
+     
+   <div class="container" id="about">
+    <div class="d-flex justify-content-center categories">
+        <h3 class="online-courses" >About Us</h3>
+    </div>
+   </div>
+   <div class="container">
+    <div class="row">
+      <div class="thirty-width col-md-6">
+        <img src="images/Photos/Man.png" alt="">
+      </div>
+      <div class="seventy-width col-md-6">
+        <p>Our dedicated team is driven by a shared passion for making a positive impact. Comprising diverse talents and backgrounds, we come together to drive change through our donation platform. With a commitment to transparency and empathy, we strive to connect donors with causes they care about. Together, we aim to create a community that fosters generosity and transforms lives. Join us in our journey towards a better and more compassionate world.</p>
+      </div>
+    </div>
+   </div>
+
+     <div class="last-part">
+       <div class="row">
+         <div class="col-md-3">
+           <p>Your smallest act of kindness can ignite a powerful chain reaction of giving, lighting up the world for those in need.</p>
+         </div>
+         <div class="col-md-3">
+           <h3>Members of the project</h3>
+           <p class="last-para">
+            Nahiduzzaman   
+            Lailafin
+            Shourav
+            Ramisa
+            Debopriyo 
+            </p>
+         </div>
+         
+         <div class="col-md-3">
+           <h3>Useful Links</h3>
+           <p class="last-para">
+            <a href="www.facebook.com">Facebook</a>
+            <a href="www.X.com">Twitter/X</a>
+            <a href="www.Instagram.com">Instagram</a>
+            <a href="www.whatsapp.com">Whatsapp</a>
+              </p>
+         </div>
+       </div>
+       <footer>
+        <p>@ Joy 2023 | all right reserved.</p>
+       </footer>
+   </div>
 
       
     </div>

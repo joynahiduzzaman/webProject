@@ -31,7 +31,7 @@ $donationId = $_GET['donation-id'];
             <div class="navbar-nav h1 ">
               <a class="nav-link color-me" href="donate_index.php">Home</a>
               <a class="nav-link color-me" href="#about">About</a>
-              <a class="button">Login</a>
+              
             </div>
           </div>
         </div>

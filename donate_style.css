@@ -1,0 +1,198 @@
+.container{
+    margin-bottom: 100px;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+}
+.navbar{
+    background-color: #282531;
+}
+.navbar .h1{
+    font-size: small;
+    font-weight: 700;
+
+    
+}
+
+
+
+a:link{
+    text-decoration: none;
+    
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+
+}
+.half-width img{
+    width: 100%;
+}
+.color-me{
+    color: white;
+    margin-right: 50px;
+}
+.button{
+    color: white;
+    background-color: #FD511A;
+    border-radius: 20px;
+    padding: 12px 28px;
+    text-align: center;
+    border: none;
+    
+}
+.button:hover{
+    color: rgb(243, 124, 124);
+    background-color: #33f3f3;
+}
+.navbar .button {
+    background-color: rgb(4, 255, 88);
+}
+.navbar .button:hover{
+    color: rgb(243, 124, 124);
+    background-color: #33f3f3;
+}
+
+.first-bg{
+    background-color: #ececec;
+    height: 100%;
+}
+
+
+
+.img-cal{
+    width: 20px;
+    height: 18px;
+    position: relative;
+    left: 30px;
+}
+.date-cal{
+    font-size: 16px;
+    padding-top: 6px;
+}
+
+.last-card-line{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.card{
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 25px;
+}
+
+
+
+
+.half-width{
+    width: 18%;
+    float: left;
+    margin-left: 35%;
+    padding-left: 2%;
+
+}
+
+.button{
+    margin: 10px;
+}
+
+
+
+
+.form-control{
+    margin-top: 8%;
+    width: 300%;
+}
+
+.Number{
+    margin-top: 8%;
+}
+.button-form{
+    color: white;
+    background-color: #FD511A;
+    border-radius: 20px;
+    padding: 12px 28px;
+    text-align: center;
+    border: none;
+    margin-top: 5%;
+    
+}
+.button-form:hover{
+    color: white;
+    background-color: #33f3f3;
+}
+.form-select{
+    width: 20%;
+    margin-left: 5px;
+}
+.form-select-tab{
+    margin-top: 40%;
+    background-color: rgb(243, 166, 166);
+    padding: 100px;
+    
+}
+
+
+
+.container{
+    margin-bottom: 100px;
+}
+.row{
+    margin-top: 50px;
+    margin-left: 7%;
+    
+    
+}
+.col-md-3 img{
+    width: 66px;
+    height: 85px;
+}
+.col-md-3 h3{
+    font-size: 20px;
+}
+.col-md-3 p{
+    color: lightgray;
+}
+.online-courses{
+    font-weight: 700;
+    margin-top: 150px;
+}
+.thirty-width{
+    width: 30%;
+    float: right;
+}
+.thirty-width img{
+    height: 150px;
+    float: right;
+}
+.seventy-width p{
+    padding: 20px;
+    font-weight: 600;
+}
+.last-part{
+    background-color: #282531;
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+}
+.last-para{
+    width: 130px;
+    padding-left: 20px;
+}
+.last-part h3{
+    color: white;
+    padding-left: 20px;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    padding-top: 200px;
+}
+
+
